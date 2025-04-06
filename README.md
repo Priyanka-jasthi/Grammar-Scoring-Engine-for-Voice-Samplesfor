@@ -7,15 +7,15 @@ Objective: Predict a continuous grammar score from .wav audio files using audio 
 📁 Dataset
 The dataset includes:
 
-train.csv: Filenames with corresponding label (grammar scores).
+-train.csv: Filenames with corresponding label (grammar scores).
 
-test.csv: Filenames without labels (used for prediction).
+-test.csv: Filenames without labels (used for prediction).
 
-audios_train/: Training audio files.
+-audios_train/: Training audio files.
 
-audios_test/: Testing audio files.
+-audios_test/: Testing audio files.
 
-sample_submission.csv: Submission format.
+-sample_submission.csv: Submission format.
 
 ⚙️ Approach & Pipeline
 1. 📊 Exploratory Data Analysis (EDA)
@@ -77,32 +77,29 @@ All predicted scores are rounded to 1 decimal place to match expected format.
 💡 Interpretability
 The notebook includes:
 
-Clear explanations of preprocessing and modeling steps.
+-Clear explanations of preprocessing and modeling steps.
 
 Visual comparisons between true and predicted values.
 
-Score distribution plots to show prediction behavior.
+-Score distribution plots to show prediction behavior.
 
-Annotated and modular code for reproducibility.
+-Annotated and modular code for reproducibility.
 
 🚀 How to Run
-Clone this repo or open in Google Colab or Kaggle Notebook.
+-Clone this repo or open in Google Colab or Kaggle Notebook.
 
-Upload the dataset (same structure as the competition).
+-Upload the dataset (same structure as the competition).
 
-Run all cells in sequence.
+-Run all cells in sequence.
 
-Final predictions will be saved to submission.csv.
+-Final predictions will be saved to submission.csv.
 
 📌 Requirements
-bash
-Copy
-Edit
-Python 3.7+
-librosa
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-tqdm
+Python 3.7+, 
+librosa, 
+pandas, 
+numpy, 
+scikit-learn, 
+matplotlib, 
+seaborn, 
+tqdm, 
